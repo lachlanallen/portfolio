@@ -12,7 +12,7 @@ Welcome to my portfolio website! This project showcases my skills and projects a
 
 ## Demo
 
-You can view the live demo of the portfolio [here](https://lachlanallen.github.io/portfolio/).
+You can view the live demo of the portfolio [here](https://wcet.waketech.edu/ltallen3/portfolio/).
 
 ## Features
 
