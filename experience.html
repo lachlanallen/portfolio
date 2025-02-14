@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/50553fad8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Lachlan Allen | Front-End Development Student</title>
+  </head>
+  <body>
+    <!-- ***********************  NAVIGATION  *********************** -->
+    <nav>
+      <p>Lachlan Allen | Front-End Developer</p>
+      <div class="menu-container">
+        <div class="hamburger" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul id="menu">
+          <li><a href="index.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+        </ul>
+      </div>
+    </nav>
+    <script>
+      function toggleMenu() {
+        document.querySelector("nav").classList.toggle("active");
+      }
+    </script>
+    <!-- ***********************  EXPERIENCE  *********************** -->
+    <main id="experience" class="experience-container">
+      <!-- EDUCATION -->
+      <h1>Education</h1>
+      <section class="education">
+        <section>
+          <div>
+            <h3>Wake Technical Community College - Wake County, NC</h3>
+            <p>Front-End Development Certificate, 2024-2025</p>
+          </div>
+        </section>
+        <!-- Education 2 -->
+        <section>
+          <div>
+            <h3>
+              The University of North Carolina at Charlotte - Charlotte, NC
+            </h3>
+            <p>Bachelor of Computer Science, 2022-2024</p>
+          </div>
+        </section>
+        <!-- Education 3 -->
+        <section>
+          <div>
+            <h3>Guilford Technical Community College - Jamestown, NC</h3>
+            <p>Associate of Science, 2018-2022</p>
+          </div>
+        </section>
+      </section>
+      <!-- Education 1 -->
+
+      <!-- WORK EXPERIENCE -->
+      <h1>Work Experience</h1>
+      <!-- Experience 1 -->
+      <section class="work-experience">
+        <div class="work-item">
+          <h3>Barista</h3>
+          <p>Barnes & Noble, Inc., August 2024 - Present</p>
+          <ul>
+            <li>
+              Provided exceptional customer service by preparing and serving a variety of beverages and food items.
+            </li>
+            <li>
+              Maintained a clean and organized workspace, managed inventory, and ensured compliance with health and safety standards. 
+            </li>
+            <li>
+              Engaged with customers to create a welcoming atmosphere, recommend menu items, and handle transactions efficiently.
+            </li>
+          </ul>
+        </div>
+        <div class="work-item">
+          <h3>Instructional Assistant</h3>
+          <p>University of North Carolina at Charlotte, May 2023 - May 2024</p>
+          <ul>
+            <li>
+              Supported teachers in the classroom by helping with daily
+              management tasks, grading assignments, and maintaining a positive
+              and productive learning environment.
+            </li>
+            <li>
+              Effectively managed a rigorous academic schedule while fulfilling
+              responsibilities such as grading and creating assignments.
+            </li>
+            <li>
+              Maintained open lines of communication with students and faculty,
+              promptly responding to emails and inquiries to address concerns
+              and provide academic assistance.
+            </li>
+            <li>
+              Held regular office hours to provide individual academic support
+              to students, further enhancing their understanding of course
+              material.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- ***********************  CONTACT  *********************** -->
+    <footer id="contact">
+      <h2>Let's Keep in Touch!</h2>
+      <!-- Social media and contact links. Add or remove any networks. -->
+      <ul class="socials">
+        <li>
+          <i class="fa-solid fa-envelope"></i
+          ><a href="mailto:lachlantallen@gmail.com" alt="My Email address"
+            >lachlantallen@gmail.com</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i
+          ><a
+            href="https://github.com/lachlanallen"
+            alt="My Github account"
+            target="_blank"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-linkedin"></i
+          ><a
+            href="https://www.linkedin.com/in/lachlan-allen-452a89257/"
+            alt="My LinkedIn account"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </footer>
+    <!-- ***********************  SCRIPTS  *********************** -->
+  </body>
+</html>

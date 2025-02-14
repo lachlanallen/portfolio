@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/50553fad8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Lachlan Allen | Front-End Development Student</title>
+  </head>
+  <body>
+    <!-- ***********************  NAVIGATION  *********************** -->
+    <nav>
+      <p>Lachlan Allen | Front-End Developer</p>
+      <div class="menu-container">
+        <div class="hamburger" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ul id="menu">
+          <li><a href="index.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+        </ul>
+      </div>
+    </nav>
+    <script>
+      function toggleMenu() {
+        document.querySelector("nav").classList.toggle("active");
+      }
+    </script>
+    <!-- ***********************  PROJECTS  *********************** -->
+    <main id="projects" class="project-container">
+      <h1>My Projects</h1>
+      <!-- Project 1 -->
+      <section class="project">
+        <img
+          class="project-img"
+          src="images/lithaven-thumbnail-500px.png"
+          srcset="images/lithaven-thumbnail.png 2x"
+          alt="Lithaven app preview"
+        />
+        <div class="lithaven project-info">
+          <h1>Lithaven | UX Design Project</h1>
+          <p>
+            Lithaven is an app designed to support readers, of all ages, in
+            their journey to find and read new books. Lithaven is a book
+            cataloging application where users can search, save, review, and
+            organize books they have read or are interested in reading. Users
+            will also be able to track their reading progress and set reading
+            goals for themselves. Lithaven aims to create a community where
+            users can find other like-minded readers and engage in book
+            discussions.
+          </p>
+          <h4>Key Achievements</h4>
+          <ul>
+            <li>
+              Conducted comprehensive user research to understand readers’ pain
+              points, preferences, and behaviors.
+            </li>
+            <li>
+              Utilized iterative design processes, refining concepts based on
+              user feedback loops.
+            </li>
+            <li>
+              Developed a high-fidelity Figma prototype, showcasing seamless
+              interactions and visual aesthetics.
+            </li>
+          </ul>
+          <div class="btn-container">
+            <a
+              class="btn"
+              href="https://www.figma.com/proto/D6aUsCMECvoVPeFI1Zsoze/Lithaven?node-id=278-4195&starting-point-node-id=278%3A4195&t=mNqF32r3RrS1znBD-1"
+              target="_blank"
+              >View Prototype</a
+            >
+            <a class="btn" href="Allen-CaseStudy.pdf" target="_blank"
+              >View Case Study</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Project 2 -->
+      <section class="project">
+        <img
+          class="project-img alt-project-img"
+          src="images/sprout-grow-thumbnail-500px.png"
+          srcset="images/sprout-grow-thumbnail.png 2x"
+          alt="Sprout and Grow website preview"
+        />
+        <div class="alt-info project-info">
+          <h1>Sprout & Grow | Front-End Web Development Project</h1>
+          <p>
+            Developed a dynamic, five-page website for Sprout & Grow, a
+            fictional client passionate about sustainable gardening. The site
+            includes a Home, About, Products, Events, and Event Registration
+            page.
+          </p>
+          <h4>Key Achievements</h4>
+          <ul>
+            <li>
+              Website Construction: Created the entire site from scratch,
+              adhering to semantic HTML standards.
+            </li>
+            <li>
+              Responsive Design: Ensured seamless adaptability across different
+              screen sizes.
+            </li>
+            <li>
+              User-Centered: Clear navigation, meaningful hyperlinks, and a
+              harmonious layout.
+            </li>
+          </ul>
+          <a
+            class="btn"
+            href="https://wcet.waketech.edu/ltallen3/WEB140/Sprout_Grow_Website/"
+            target="_blank"
+            >View project</a
+          >
+        </div>
+      </section>
+      <!-- Project 3 -->
+      <section class="project">
+        <img
+          class="project-img"
+          src="images/pokesearch-thumbnail-500px.png"
+          srcset="images/pokesearch-thumbnail.png 2x"
+          alt="PokeSearch website preview"
+        />
+        <div class="pokesearch project-info">
+          <h1>PokeSearch | React.js Web App</h1>
+          <p>
+            Search for your favorite Pokémon with PokeSearch! This web app
+            utilizes PokeAPI to display Generation 7 pokemon and their
+            information.
+          </p>
+          <h4>Key Achievements</h4>
+          <ul>
+            <li>
+              Developed a dynamic search app using front-end technologies like
+              HTML, Tailwind CSS, JavaScript and React.
+            </li>
+            <li>
+              Leveraged the PokéAPI to fetch data, implemented search
+              functionality, and displayed Pokémon Pokédex entries, stats, and
+              types.
+            </li>
+            <li>
+              Users can explore detailed information about their favorite
+              Generation 7 Pokémon using a user-friendly interface with
+              responsive components.
+            </li>
+          </ul>
+          <a
+            class="btn"
+            href="https://lachlanallen.github.io/PokeSearch/"
+            target="_blank"
+            >View project</a
+          >
+        </div>
+      </section>
+      <!-- Project 4 -->
+      <section class="project">
+        <img
+          class="project-img alt-project-img"
+          src="images/alpine-thumbnail-500px.png"
+          srcset="images/alpine-thumbnail.png 2x"
+          alt="Alpine Serenity Inn website preview"
+        />
+        <div class="alt-info project-info">
+          <h1>Alpine Serenity Inn | UX Design Project</h1>
+          <p>
+            Alpine Serenity Inn is a bed and breakfast website designed to offer users a seamless experience in booking their stay. The website features a variety of pages, including rooms, menus, and amenities. Alpine Serenity Inn aims to provide an intuitive and user-friendly platform for guests to explore the inn's offerings and easily make reservations.
+          </p>
+          <h4>Key Achievements</h4>
+          <ul>
+            <li>
+              Conducted user research to understand potential guests' preferences, needs, and booking behaviors.
+            </li>
+            <li>
+              Employed iterative design processes, continuously refining concepts based on user feedback and usability testing.
+            </li>
+            <li>
+              Developed a high-fidelity Figma prototype, showcasing a visually appealing and intuitive interface that enhances the overall user experience.
+            </li>
+          </ul>
+          <div class="btn-container">
+            <a
+              class="btn"
+              href="https://www.figma.com/proto/Z8SkfiiFyPHjwNZr62Qnp8/Alpine-Serenity-Inn?node-id=189-3580&p=f&t=EM2VUwaTdqPYr0mh-1&scaling=min-zoom&content-scaling=fixed&page-id=189%3A3450&starting-point-node-id=189%3A3580"
+              target="_blank"
+              >View Prototype</a
+            >
+            <a class="btn" href="Allen-CaseStudy2.pdf" target="_blank"
+              >View Case Study</a
+            >
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <!-- ***********************  CONTACT  *********************** -->
+    <footer id="contact">
+      <h2>Let's Keep in Touch!</h2>
+      <!-- Social media and contact links. Add or remove any networks. -->
+      <ul class="socials">
+        <li>
+          <i class="fa-solid fa-envelope"></i
+          ><a href="mailto:lachlantallen@gmail.com" alt="My Email address"
+            >lachlantallen@gmail.com</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github"></i
+          ><a
+            href="https://github.com/lachlanallen"
+            alt="My Github account"
+            target="_blank"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-linkedin"></i
+          ><a
+            href="https://www.linkedin.com/in/lachlan-allen-452a89257/"
+            alt="My LinkedIn account"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
